@@ -1,5 +1,4 @@
 *.bag
-*.png
 *.avi
 **/logs
 /__pycache__
