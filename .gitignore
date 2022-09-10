@@ -1,0 +1,6 @@
+*.bag
+*.png
+*.avi
+**/logs
+/__pycache__
+/training_checkpoints/

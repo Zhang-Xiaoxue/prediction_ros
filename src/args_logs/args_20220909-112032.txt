@@ -1,0 +1,24 @@
+{
+  "rnn_size": 128,
+  "num_layers": 1,
+  "model": "lstm",
+  "batch_size": 50,
+  "seq_length": 10,
+  "alpha": 50,
+  "num_epochs": 200,
+  "save_every": 100,
+  "grad_clip": 10.0,
+  "learning_rate": 0.003,
+  "decay_rate": 0.95,
+  "keep_prob": 0.8,
+  "embedding_size": 64,
+  "leaveDataset": 1,
+  "train_dataset": [
+    "/home/parallels/Desktop/ros2_programme_ws/src/ros2_programme_simulator/prediction_ros/src/data/ros_simu/rosworld1-yolov7-yolov7_detection.csv"
+  ],
+  "test_dataset": [
+    "/home/parallels/Desktop/ros2_programme_ws/src/ros2_programme_simulator/prediction_ros/src/data/ros_simu/rosworld1-yolov7-yolov7_detection.csv"
+  ],
+  "obs_length": 6,
+  "pred_length": 4
+}
